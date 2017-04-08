@@ -149,7 +149,7 @@ var game = {
                 document.getElementsByClassName('answer-container')[0].innerHTML = "";
                 gameObj.nextQuestion();
             }
-        }, 2500);
+        }, 3500);
     },
     nextQuestion: function() {
         // Bring down the answer block
