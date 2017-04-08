@@ -1,0 +1,44 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Trivia Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <h1 class="title">Planet Trivia!!</h1>
+
+            <div class="welcome-screen">
+                <div class="welcome-title">Welcome to the game!</div>
+                <div class="welcome-text">You task is to answer trivia questions about the planets in our solar system. Good luck! And don't waste tame because you only have 20 seconds for each answer, hehehehe.....</div>
+                <div class="ok-button">OK</div>
+            </div>
+
+            <div class="question-block">
+                <div class="timer"></div>
+                <div class="question-title"></div>
+                <div class="answer-container">
+                    
+                </div>
+            </div>
+
+            <div class="answer-block">
+                <div class="result"></div>
+                <div class="answer-text">The correct answer is "<span id="answer-target"></span>"!</div>
+            </div>
+
+            <div class="end-block">
+                <div class="layer"></div>
+                <div class="end-title">Thank you for playing!</div>
+                <div class="end-text">You got <span id="num-right-target"></span> right. You're <span id="smart-target"></span>!</div>
+                <div class="end-message">You know you wanna give it one more try...why not?...</div>
+                <div class="play-again">Play Again</div>
+            </div>
+        </div>
+        
+    </body>
+    <script src="./js/trivia-game.js"></script>
+</html>
