@@ -131,7 +131,7 @@ var game = {
         var result = document.getElementsByClassName('result')[0];
         var correctAnswer = this.questions[this.currentQuestion].correct;
         if (answer == null) {
-            result.innerHTML = "Times up!";
+            result.innerHTML = "Time's up!";
         } else if (answer == correctAnswer) {
             result.innerHTML = "Right!";
             gameObj.numCorrect++;
